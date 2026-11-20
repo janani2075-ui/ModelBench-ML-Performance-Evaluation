@@ -1,0 +1,26 @@
+kNN EVALUATION — IRIS
+==================================================
+k: 12  metric: euclidean  weights: uniform
+Train: 120  Test: 30
+
+Accuracy : 0.9667
+Precision: 0.9697
+Recall   : 0.9667
+F1(macro): 0.9666
+ROC-AUC  : 0.9983
+CV mean  : 0.9667  std: 0.0447
+
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.91      1.00      0.95        10
+   virginica       1.00      0.90      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0 10  0]
+ [ 0  1  9]]

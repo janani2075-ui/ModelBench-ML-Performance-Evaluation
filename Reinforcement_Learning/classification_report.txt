@@ -1,0 +1,27 @@
+Q-Learning Reinforcement Learning Results
+Dataset: Titanic
+Student: Janani Veerakumar
+
+Episodes: 3000
+Learning Rate: 0.1
+Discount Factor: 0.9
+Epsilon: 0.1
+
+Accuracy: 0.5550
+Precision: 0.3960
+Recall: 0.3806
+F1 Score: 0.3882
+
+Confusion Matrix:
+[[173  90]
+ [ 96  59]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.66      0.65       263
+           1       0.40      0.38      0.39       155
+
+    accuracy                           0.56       418
+   macro avg       0.52      0.52      0.52       418
+weighted avg       0.55      0.56      0.55       418

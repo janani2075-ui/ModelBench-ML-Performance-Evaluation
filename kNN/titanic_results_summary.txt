@@ -1,0 +1,24 @@
+kNN EVALUATION — TITANIC
+==================================================
+k: 7  metric: euclidean  weights: uniform
+Train: 712  Test: 179
+
+Accuracy : 0.7654
+Precision: 0.7537
+Recall   : 0.7443
+F1(macro): 0.7480
+ROC-AUC  : 0.8295
+CV mean  : 0.8160  std: 0.0269
+
+              precision    recall  f1-score   support
+
+Not Survived       0.79      0.84      0.81       110
+    Survived       0.71      0.65      0.68        69
+
+    accuracy                           0.77       179
+   macro avg       0.75      0.74      0.75       179
+weighted avg       0.76      0.77      0.76       179
+
+Confusion Matrix:
+[[92 18]
+ [24 45]]

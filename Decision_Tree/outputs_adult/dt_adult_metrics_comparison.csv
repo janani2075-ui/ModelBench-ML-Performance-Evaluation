@@ -1,0 +1,5 @@
+Model,Split,Accuracy,F1,ROC_AUC
+Baseline,Train,0.9777,0.9537,0.9985
+Baseline,Test,0.813,0.6207,0.7715
+Tuned,Train,0.8103,0.6998,0.9206
+Tuned,Test,0.7998,0.6821,0.9016

@@ -1,0 +1,24 @@
+kNN EVALUATION — ADULT CENSUS
+==================================================
+k: 11  metric: manhattan  weights: uniform
+Train: 24111  Test: 6028
+
+Accuracy : 0.8376
+Precision: 0.7855
+Recall   : 0.7690
+F1(macro): 0.7765
+ROC-AUC  : 0.8895
+CV mean  : 0.8352  std: 0.0140
+
+              precision    recall  f1-score   support
+
+       <=50K       0.88      0.91      0.89      4527
+        >50K       0.69      0.63      0.66      1501
+
+    accuracy                           0.84      6028
+   macro avg       0.79      0.77      0.78      6028
+weighted avg       0.83      0.84      0.84      6028
+
+Confusion Matrix:
+[[4100  427]
+ [ 552  949]]
